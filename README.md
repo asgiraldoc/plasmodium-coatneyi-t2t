@@ -35,6 +35,3 @@ Ensure the following tools are installed and available in your `$PATH`:
 
 ### `04_karyotype_plotting/`
 [cite_start]Wrappers to process feature lists (telomeres, gaps, BUSCO genes, TIDK windows) and plot the final chromosome-scale feature tracks using ChromSyn[cite: 55, 269].
-
-## License
-MIT License
