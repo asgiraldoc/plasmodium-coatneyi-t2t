@@ -1,6 +1,6 @@
 # Plasmodium coatneyi T2T Genome Analysis Pipeline
 
-[cite_start]This repository contains the scripts and pipelines used for the structural and comparative genomics analyses in the publication: **"A telomere-to-telomere Plasmodium coatneyi genome exhibits subtelomeric remodeling and dispersed gene duplications in the Plasmodium vivax clade"**[cite: 1].
+This repository contains the scripts and pipelines used for the structural and comparative genomics analyses in the publication: **"A telomere-to-telomere Plasmodium coatneyi genome exhibits subtelomeric remodeling and dispersed gene duplications in the Plasmodium vivax clade"**
 
 ## Overview
 The scripts provided here reproduce the core chromosomal architecture analyses described in the study, including:
