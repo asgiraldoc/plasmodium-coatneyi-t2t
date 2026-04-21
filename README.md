@@ -25,13 +25,13 @@ Ensure the following tools are installed and available in your `$PATH`:
 ## Repository Structure
 
 ### `01_assembly_and_synteny/`
-[cite_start]Contains scripts to generate whole-genome multi-MUM synteny plots comparing assemblies (e.g., *P. coatneyi* v1 vs v2)[cite: 53, 434].
+Contains scripts to generate whole-genome multi-MUM synteny plots comparing assemblies (e.g., *P. coatneyi* v1 vs v2)[cite: 53, 434].
 
 ### `02_chromosome_features/`
-[cite_start]Pipelines to detect telomeric repeat arrays (`5′-GGGTT(T/C)A-3′`) using Telociraptor and TIDK [cite: 58, 267][cite_start], and to identify/extract centromeric regions (GC troughs) using reference-unbiased pangenome graphs constructed with PGGB[cite: 57, 65].
+Pipelines to detect telomeric repeat arrays (`5′-GGGTT(T/C)A-3′`) using Telociraptor and TIDK [cite: 58, 267], and to identify/extract centromeric regions (GC troughs) using reference-unbiased pangenome graphs constructed with PGGB[cite: 57, 65].
 
 ### `03_structural_rearrangements/`
-[cite_start]Contains `identify_rearrangements.py` (an extension of the AGORA toolkit), which analyzes synteny blocks to quantify fusions, fissions, translocations, and inversions across lineages[cite: 77, 276].
+Contains `identify_rearrangements.py` (an extension of the AGORA toolkit), which analyzes synteny blocks to quantify fusions, fissions, translocations, and inversions across lineages[cite: 77, 276].
 
 ### `04_karyotype_plotting/`
-[cite_start]Wrappers to process feature lists (telomeres, gaps, BUSCO genes, TIDK windows) and plot the final chromosome-scale feature tracks using ChromSyn[cite: 55, 269].
+Wrappers to process feature lists (telomeres, gaps, BUSCO genes, TIDK windows) and plot the final chromosome-scale feature tracks using ChromSyn[cite: 55, 269].
